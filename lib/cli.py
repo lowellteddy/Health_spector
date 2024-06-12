@@ -48,7 +48,7 @@ def manage_patients():
             click.echo("Exiting...")
             break
         else:
-            click.echo("Invalid choice, please try again.")
+            click.echo("Invalid choice.Please try again.")
 
 def add_patient(name, age):
     """Add a new patient."""
